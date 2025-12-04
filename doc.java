@@ -1,7 +1,7 @@
  public class doc{
-	String titre = "hi";
-	String auteur = "hsuhw";
-	int  anneePublication = 264;
+	String titre = "Ego Is the Enemy";
+	String auteur = "Rayan holiday";
+	int  anneePublication = 2016;
 	
 	@Override
 	public String toString() {
@@ -13,4 +13,5 @@
 
 	
 }
+
 
