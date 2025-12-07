@@ -1,6 +1,10 @@
-public class Main{
+//la class principale
+public class Main {
     public static void main(String[] args) {
-        doc document = new doc();
-        System.out.println(document.toString());
-    }
+        LivreAvecPages livre = new LivreAvecPages("THHBCCHH", "GTUUCFIJD", 1774, 328 );
+        livre.afficher();
+        DOC doc1 = new magazine("", "", 0, 0, 0);
+        System.out.println(doc1.toString());
+
+}
 }
